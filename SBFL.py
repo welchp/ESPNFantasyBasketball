@@ -1,5 +1,4 @@
 import sys, os
-sys.path.append('/Applications/anacondas/anaconda/lib/python3.5/site-packages')
 import urllib.request, urllib.parse
 import requests
 import pandas as pd
