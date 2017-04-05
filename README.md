@@ -24,7 +24,7 @@ Feel free to leave a message here if you've got some ideas or suggestions!
 ## OBJECT CLASSES
 
 ### League
-leagueid | name | settings | teams | teamids
+Attributes - leagueid | name | settings | teams | teamids
 
 ### Team
-teamid | name | roster | scoring | schedule
+Attributes - teamid | name | roster | scoring | schedule
