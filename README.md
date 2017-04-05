@@ -10,25 +10,21 @@ Feel free to leave a message here if you've got some ideas or suggestions!
 
 ## THE PROCESS
 1. Begin by creating a League object with leagueid as the only parameter:
-'''    l = League(__yourleagueid__)'''
+
+    l = League(__yourleagueid__)
     
 2. With your League object created as 'l', you can loop through the League attribute 'teamids' and create a Team object for each team in your league.
-'''    for teamid in l.teamids:
-      team = Team(teamid)
-      print (team.teamid, '|', team.name)'''
+   
+      for teamid in l.teamids:
+      
+        team = Team(teamid)
+      
+        print (team.teamid, '|', team.name)
       
 ## OBJECT CLASSES
 
 ### League
-leagueid
-name
-settings
-teams
-teamids
+leagueid | name | settings | teams | teamids
 
 ### Team
-teamid
-name
-roster
-scoring
-schedule
+teamid | name | roster | scoring | schedule
